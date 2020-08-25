@@ -12,7 +12,9 @@
     "scripts": {
         "build": "npm run tsc",
         "docker:build": "npm run build && docker build -t ayotycoon/ayo-assessment-one .",
+        "docker:test": "docker run --publish 8089:8089 --detach --name ayo-assessment-one ayotycoon/ayo-assessment-one",
         "docker:stop": "docker rm --force ayo-assessment-one",
+        "docker:deploy": "docker push ayotycoon/ayo-assessment-one",
         "tsc": "tsc",
         "start": "node ./server_dist/app.js",
         "dev": " ts-node ./server_src/app.ts",
