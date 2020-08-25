@@ -1,0 +1,10 @@
+{
+
+    "ext": "ts",
+    "ignore": [
+        "src/**/*.spec.ts",
+        "node_modules",
+        "client_src"
+    ],
+    "exec": "npm run dev"
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2017",
+    "noImplicitAny": false,
+    "outDir": "server_dist",
+    "moduleResolution": "node",
+
+    "sourceMap": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+        "resolveJsonModule": true
+  },
+ 
+  "include": [
+    "server_src/**/*.ts"
+  ],
+  
+
+  "exclude": [
+    "node_modules",
+    "client_src",
+    "dist",
+    "**/*.spec.ts"
+  ]
+
+}

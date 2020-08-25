@@ -1,0 +1,14 @@
+/node_modules
+/server_dist
+/uploads
+/temp
+#.env
+stat.json
+#/client_src
+#/gitignore
+#tsconfig.json
+#tslint.json
+#build.js
+#deploy.js
+#cleanup.js
+#nodemon.json

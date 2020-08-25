@@ -1,0 +1,10 @@
+{
+    "defaultSeverity": "error",
+ 
+    "jsRules": {},
+    "rules": {
+        "no-default-export": false,
+        "esModuleInterop": true
+    },
+    "rulesDirectory": []
+}
