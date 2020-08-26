@@ -104,3 +104,6 @@ curl --location --request POST 'http://ayo-assessment-one.herokuapp.com/api/v1' 
 }'
 
 ```
+# NOTE
+The function that solves the question  is in the Main.controller class ' `server_src/controllers/Main.controller.ts` '
+
