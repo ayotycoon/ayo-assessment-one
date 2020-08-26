@@ -18,7 +18,6 @@
         "tsc": "tsc",
         "start": "node ./server_dist/app.js",
         "dev": " ts-node ./server_src/app.ts",
-        "deploy": "npm run prod && node ./deploy.js",
         "test": "jest"
     },
     "dependencies": {

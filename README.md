@@ -20,9 +20,14 @@ stop docker container ``` npm run docker:stop ``` \
 -node \
 run production mode  ``` npm start ``` \
 run development mode ``` nodemon ``` \
-compile to js ``` npm run build ``` \
+compile to js ``` npm run build ``` 
+# Enhancements
+Apart from returning the total results, this service returns both the accepted and rejected virtual machines. the rejected virtual machines come with a reason why they were not accepted.
 # Testing
-``` npm run test ```
+ 
+``` npm run test ``` \
+The test script only tests for the '`result`' property .
+
 
 ## EXAMPLE
 Using javascript fetch
