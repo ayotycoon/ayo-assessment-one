@@ -11,7 +11,9 @@ application-port = 8089
 # HOW TO USE:
 Make a POST request to the url with the body contain 'serverType' and 'virtualMachines' property.
 serverType is an object contain the CPU, RAM AND HDD 
-virtualMachines is an array of object, containing the virtual machine CPU, RAM AND HDD 
+virtualMachines is an array of object, containing the virtual machine CPU, RAM AND HDD. Check the example section \
+\
+  to run locally, pull from the repo and run `npm install`, then use your prefered environment in the local commands section.
 # Local Commands
 -docker \
 build docker image ``` npm run docker:build ``` \
